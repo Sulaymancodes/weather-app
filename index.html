@@ -7,7 +7,75 @@
     <title>Weather App</title>
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="top-section padding">
+            <form class="padding" action="">
+                <input type="search" id="search" placeholder="Search Location" class="border padding">
+                <input type="submit" name="submit" id="submit" value="search" class="border padding">
+            </form>
+            <div class="weather-container border">
+                <div class="city padding">
+                    <div>
+                        <h2 class="city-title">Kano,Kano Nigeria</h2>
+                        <p class="city-time">Wednesday,September 4 2024</p>
+                    </div>
+                    <h1 class="local-time">23:23</h1>
+                </div>
+                
+                <div class="weather-degree-icon">
+                    <h1 class="weather-degree">25C</h1>
+                    <img src="#" alt="weather icon" id="weather-icon">
+                </div>   
+            </div>
+        </div>
+        <div class="bottom-section padding">
+            <div class="weather-details">
+                <h2 class="details">Today's weather details</h2>
+                <div class="details-container">
+                    <div class="details-icon-text">
+                        <img src="svgs/temperature-half-svgrepo-com.svg" alt="thermal sensation icon" class="svg">
+                        <p>Thermal Sensation</p>
+                    </div>
+                    <p id="thermal-sensation"></p>
+                </div>
+                <div class="details-container">
+                    <div class="details-icon-text">
+                        <img src="svgs/cloud-rain-alt-1-svgrepo-com.svg" alt="rain probability icon" class="svg">
+                        <p>Rain Probability</p>
+                    </div>
+                    <p id="rain-prob"></p>
+                </div>
+                <div class="details-container">
+                    <div class="details-icon-text">
+                        <img src="svgs/wind-svgrepo-com.svg" alt="wind speed icon" class="svg">
+                        <p>Wind Speed</p>
+                    </div>
+                    <p id="wind-speed"></p>
+                </div>
+                <div class="details-container">
+                    <div class="details-icon-text">
+                        <img src="svgs/humidity-svgrepo-com.svg" alt="Air humidity icon" class="svg">
+                        <p>Air Humidity</p>
+                    </div>
+                    <p id="air-humidity"></p>
+                </div>
+                <div class="details-container">
+                    <div class="details-icon-text">
+                        <img src="svgs/moisture-svgrepo-com.svg" alt="Dew Icon" class="svg">
+                        <p>Dew</p>
+                    </div>
+                    <p id="dew"></p>
+                </div>
+            </div>
+            <div class="forecast-container">
+                <h2 class="forecast-container-title">
+                    Forecast For 5 Days
+                </h2>
+                <div class="days-container"></div>
+            </div>
+        </div>
+    </div>
+   
 </body>
 <script src="script.js"></script>
 </html>

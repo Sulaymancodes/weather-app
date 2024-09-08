@@ -1,8 +1,74 @@
 *{
-    margin: 0 auto;
     box-sizing: border-box;
 }
 
 body{
     background-color: aqua;
+}
+.padding{
+    padding: 10px;
+}
+.border{
+    border-radius: 5px;
+}
+.main-container{
+    background-color: red;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.top-section{
+    background-color: aquamarine;
+    width: 100%;
+}
+.bottom-section{
+    background-color: burlywood;
+    width: 100%;
+}
+form{
+    background-color: cornflowerblue;
+}
+#search,#submit{
+    width: 88%;
+    border-style: none;
+    height: 2rem;
+}
+#submit{
+    width: 10%;
+    padding: 0;
+}
+
+.weather-container{
+    margin-top: 2rem;
+    background-color: crimson;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    line-height: 2px;
+}
+
+.weather-degree-icon{
+    display: flex;
+    background-color: cornflowerblue;
+    justify-content: space-around;
+}
+.weather-degree{
+    font-size: 7rem;
+}
+.details-container{
+    display: flex;
+    justify-content: space-between;
+}
+.details-icon-text{
+    display: flex;
+    align-items: center;
+}
+
+.svg{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
 }
