@@ -52,7 +52,7 @@ async function fetchWeather(locationName) {
       cityDate.textContent = `${today}, ${month} ${year}`;
       localTime.textContent = getLocalTime()
       weatherDegree.textContent = `${processedData.currentConditions.temp} °F`;
-      weatherIcon.src = `https://github.com/visualcrossing/WeatherIcons/tree/main/PNG/1st%20Set%20-%20Color/${processedData.currentConditions.icon}.png`;
+      weatherIcon.src = `icons/${processedData.currentConditions.icon}.png`;
       windDirection.textContent = `${processedData.currentConditions.winddir} NW`;
       windSpeed.textContent = `${processedData.currentConditions.windspeed} Km/h`;
       airHumidity.textContent = `${processedData.currentConditions.humidity} %`;

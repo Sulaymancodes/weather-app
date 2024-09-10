@@ -3,7 +3,9 @@
 }
 
 body{
-    background-color: rgba(18, 158, 244, 0.5);
+    background-color: rgba(32, 33, 34, 0.804);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #1c1d1d;
 }
 .padding{
     padding: 10px;
@@ -12,7 +14,7 @@ body{
     border-radius: 5px;
 }
 .main-container{
-    background-color: red;
+    background-color: rgba(78, 171, 243, 0.395);
     border-radius: 10px;
     width: 80%;
     margin: 0 auto;
@@ -22,24 +24,35 @@ body{
 form{
     background-color: cornflowerblue;
 }
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
 #search,#submit{
     width: 88%;
     border-style: none;
     height: 2rem;
+    background-color: rgb(164, 188, 234);
+    border: 1px solid rgb(173, 197, 241);
 }
 #submit{
     width: 10%;
     padding: 0;
 }
+#submit:hover{
+    background-color: rgb(102, 140, 211);
+}
 
 .weather-container{
-    margin-top: 2rem;
-    background-color: crimson;
+    margin-top: 10px;
 }
 .city{
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: rgb(100, 221, 237);
+    margin-bottom: 10px;
     line-height: 2px;
 }
 
@@ -52,7 +65,7 @@ form{
     font-size: 6rem;
 }
 .weather-details{
-    background-color: burlywood;
+    background-color: cornflowerblue;
 }
 .details-container{
     display: flex;
@@ -68,3 +81,4 @@ form{
     height: 25px;
     margin-right: 10px;
 }
+
